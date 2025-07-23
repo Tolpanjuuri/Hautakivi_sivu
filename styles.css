@@ -72,7 +72,26 @@ main {
     margin-top: 0;
     color: #2e2e2e;
 }
-
+a:link {
+  color:aqua;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: aqua;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: lightblue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
 
 /* Thank you page */
 .thanks{
@@ -89,7 +108,13 @@ footer {
     color: white;
     font-size: 0.9rem;
 }
-
+.footerItem {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  justify-content: center;
+}
 
 
 /* Contact form */
