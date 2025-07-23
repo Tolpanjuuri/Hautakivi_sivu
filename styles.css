@@ -49,7 +49,7 @@ main {
     display: flex;
     flex-wrap: nowrap;
     gap: 1.5rem;
-    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .service {
@@ -59,14 +59,13 @@ main {
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
-.picture {
-    border-radius: 8px;
-    height: 25rem;
-    margin: 1rem;
-}
 .text{
     flex: 1 1 250px;
     padding: 1rem;
+    padding-top: 0;
+}
+.intro{
+  padding-left: 1rem;
 }
 .service h3 {
     margin-top: 0;
@@ -92,6 +91,19 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
+.pictures{
+  text-align: center;
+  flex: 1 1 250px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.picture {
+  border-radius: 8px;
+  height: 23rem;
+  margin: 1rem;
+}
+
 
 /* Thank you page */
 .thanks{
@@ -203,7 +215,9 @@ footer {
     .picture{
       border-radius: 8px;
       height: 60vw;
-      margin: 1rem;
+      margin: 0;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
     }
     h2{
       font-size:medium;
@@ -213,6 +227,13 @@ footer {
     }
     p{
       font-size: small;
+    }
+    main{
+      padding: 0.75rem;
+    }
+    .pictures{
+      margin-left: 2rem;
+      margin-right: 2rem;
     }
     .phone{
       display: contents;
